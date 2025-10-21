@@ -1,0 +1,26 @@
+From fbe954e3dbdd39f4cf8d869bd0a2af13e619bc60 Mon Sep 17 00:00:00 2001
+From: doer00kg <front.doer@gmail.com>
+Date: Tue, 21 Oct 2025 10:29:59 +0000
+Subject: [PATCH 2/2] =?UTF-8?q?My=20fix:=20=D0=BE=D0=BF=D0=B8=D1=81=20?=
+ =?UTF-8?q?=D0=B7=D0=BC=D1=96=D0=BD=20(5-15=20lines)?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ calculator.c | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 calculator.c
+
+diff --git a/calculator.c b/calculator.c
+new file mode 100644
+index 0000000..f801bd8
+--- /dev/null
++++ b/calculator.c
+@@ -0,0 +1,3 @@
++double square(double x) {
++    return x * x;
++}
+-- 
+2.43.0
+
